@@ -1,0 +1,77 @@
+.NewExpense {
+	flex-wrap: wrap;
+	.content {
+		color: black;
+		flex-wrap: wrap;
+		hr {
+			margin-top: 45px;
+		}
+		.cards {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			.card {
+				width: 600px;
+				height: 310px;
+				border: 2px solid;
+				border-radius: 5px;
+				margin-top: 40px;
+				flex-wrap: wrap;
+				@media (max-width: 767px) {
+					flex-wrap: wrap;
+					width: 100%;
+					height: auto;
+				}
+				h3 {
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+		.car {
+			display: flex;
+			justify-content: center;
+			margin-top: 30px;
+			.car2 {
+				width: 600px;
+				height: 340px;
+				border: 2px solid;
+				border-radius: 5px;
+				@media (max-width: 767px) {
+					flex-wrap: wrap;
+					width: 100%;
+					height: auto;
+				}
+				.car3 {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+
+					p {
+						margin-top: 2px;
+					}
+					.divbutton {
+						@media (max-width: 767px) {
+							flex-wrap: wrap;
+							width: 100%;
+							height: auto;
+						}
+					}
+
+					img {
+						margin-top: 10px;
+						width: 500px;
+						height: 200px;
+						border-radius: 5px;
+						@media (max-width: 767px) {
+							flex-wrap: wrap;
+							width: 100%;
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}

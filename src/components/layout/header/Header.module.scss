@@ -1,0 +1,21 @@
+.Header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+	background-color: black;
+	.content {
+		display: flex;
+		justify-content: center;
+		.car {
+		}
+		img {
+			width: 40px;
+			border-radius: 3px;
+		}
+		h1 {
+			color: white;
+		}
+	}
+}
